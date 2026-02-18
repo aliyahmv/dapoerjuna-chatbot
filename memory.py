@@ -1,4 +1,4 @@
-from langchain_community.memory import ConversationBufferMemory
+from langchain.memory import ConversationBufferMemory
 
 # Default memory (k = 8 message window)
 memory = ConversationBufferMemory(
