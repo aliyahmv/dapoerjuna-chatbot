@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.schema import Document
+from langchain_core.schema import Document
 from tools import df, build_block
 
 load_dotenv()
